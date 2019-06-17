@@ -1,3 +1,9 @@
+# run
+```bash
+docker-compose up
+# access localhost:10000/appraise
+```
+
 <h1 id="appraise_evaluation_system">Appraise Evaluation System</h1>
 
 <p>Current release used to run the evaluation of the <a href="http://www.statmt.org/wmt16/">ACL 2016 First Conference on Machine Translation (WMT16)</a>. It has also been used for WMT 2015, 2014 and 2013. Second major release in time for the <a href="http://www.statmt.org/mtm12/">Seventh MT Marathon 2012</a> which took place September 3-8, 2012 in Edinburgh, Scotland. Initial import into GitHub on Oct 23, 2011. First versions of this software appeared in summer 2008...</p>
