@@ -4,9 +4,11 @@
 
 # run
 ```bash
-docker-compose up
+docker build -t appraise .
+docker run --rm -it -p 8000:8000 -v "$PWD":/app appraise sh /run.sh
+# ...input appraise user config
 ```
-and access http://localhost:10000/appraise
+and access http://localhost:8000/appraise
 
 ---
 
